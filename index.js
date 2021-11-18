@@ -16,6 +16,6 @@ $(document).ready(function() {
             localStorage.setItem(name, 0);
         }
 
-        window.location.assign('/question.html');
+        window.location.assign('question.html');
     });
 });
