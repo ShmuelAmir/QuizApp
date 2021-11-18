@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/df95a2d285.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <header>
+      <p class="logo">logo</p>
+    </header>
+
+    <div class="load"></div>
+    <main class="que-main hidden">
+      <h2 class="que">
+      </h2>
+        <div class="ans">
+          <span class="num">1</span
+          ><span class="txt"></span>
+        </div>
+        <div class="ans">
+          <span class="num">2</span
+          ><span class="txt"></span>
+        </div>
+        <div class="ans">
+          <span class="num">3</span
+          ><span class="txt"></span>
+        </div>
+        <div class="ans">
+          <span class="num">4</span
+          ><span class="txt"></span>
+        </div>
+      </div>
+      <div class="progress">
+          <div class="left">
+              <div class="txt">question</div>
+              <div class="numbers" id="progress-question"></div>
+              <div class="progress-bar"><div class="inner-bar"></div></div>
+          </div>
+          <div class="right">
+            <div class="txt">score</div>
+            <div class="numbers" id="progress-score">0</div>
+        </div>
+      </div>
+    </main>
+
+    <footer>&copy; shmuel amir</footer>
+
+    <script src="question.js"></script>
+  </body>
+</html>
